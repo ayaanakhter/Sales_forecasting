@@ -3,7 +3,6 @@
 ## 🚀 Project Overview
 This project analyzes **Statewide Contract (Master Contract) Sales Data** to:
 - 📈 **Forecast future sales** using **Linear & Polynomial Regression**.
-- 🏷 **Segment customers** using **K-Means Clustering**.
 - 📊 **Visualize trends** in state contract spending.
 
 ## 📂 Dataset Information
@@ -21,14 +20,6 @@ This project analyzes **Statewide Contract (Master Contract) Sales Data** to:
   - **Linear Regression** predicts **$2.83B** in sales for 2025.
   - **Polynomial Regression** predicts **$3.32B**, suggesting an increasing growth rate.
 
-### **2️⃣ Customer Segmentation**
-- **Approach:**
-  - Used **K-Means Clustering** to segment customers based on total sales.
-  - Identified **3 customer groups**:
-    1. 🟡 **Small Buyers** (Low total sales)
-    2. 🔵 **Medium Buyers** (Moderate spending)
-    3. 🔴 **Large Buyers** (Statewide departments with high spending)
-
 ## 📊 Results & Visualization
 - 📉 **Trends:** Polynomial Regression shows **faster growth** than Linear Regression.
 - 📌 **Key Insight:** Sales growth is **non-linear**, meaning higher-than-expected revenue in future years.
@@ -42,7 +33,7 @@ This project analyzes **Statewide Contract (Master Contract) Sales Data** to:
 ### **Run the Notebook**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Sales-Forecasting-Analysis.git
+   git clone https://github.com/ayaanakhter/Sales-Forecasting-Analysis.git
    cd Sales-Forecasting-Analysis
    ```
 2. Install dependencies:
