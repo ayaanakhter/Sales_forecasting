@@ -1,79 +1,65 @@
-📊 Sales Forecasting & Customer Segmentation
+# 📊 Sales Forecasting & Customer Segmentation
 
-🚀 Project Overview
+## 🚀 Project Overview
+This project analyzes **Statewide Contract (Master Contract) Sales Data** to:
+- 📈 **Forecast future sales** using **Linear & Polynomial Regression**.
+- 🏷 **Segment customers** using **K-Means Clustering**.
+- 📊 **Visualize trends** in state contract spending.
 
-This project analyzes Statewide Contract (Master Contract) Sales Data to:
+## 📂 Dataset Information
+- **Source:** [Master Contract Sales Data](https://catalog.data.gov/dataset/master-contract-sales-data-by-customer-contract-vendor)
+- **Updated:** March 8, 2025
+- **Description:** Reports sales data by contract and customer, including small business & veteran-owned business status.
+- **Access:** Public dataset
 
-📈 Forecast future sales using Linear & Polynomial Regression.
+## 🛠️ Methodology
+### **1️⃣ Sales Forecasting**
+- **Models Used:**
+  - **Linear Regression:** Assumes a constant rate of sales growth.
+  - **Polynomial Regression (Degree 2):** Captures accelerating growth trends.
+- **Findings:**
+  - **Linear Regression** predicts **$2.83B** in sales for 2025.
+  - **Polynomial Regression** predicts **$3.32B**, suggesting an increasing growth rate.
 
-🏷 Segment customers using K-Means Clustering.
+### **2️⃣ Customer Segmentation**
+- **Approach:**
+  - Used **K-Means Clustering** to segment customers based on total sales.
+  - Identified **3 customer groups**:
+    1. 🟡 **Small Buyers** (Low total sales)
+    2. 🔵 **Medium Buyers** (Moderate spending)
+    3. 🔴 **Large Buyers** (Statewide departments with high spending)
 
-📊 Visualize trends in state contract spending.
+## 📊 Results & Visualization
+- 📉 **Trends:** Polynomial Regression shows **faster growth** than Linear Regression.
+- 📌 **Key Insight:** Sales growth is **non-linear**, meaning higher-than-expected revenue in future years.
+- 📈 **Graphs included** in the notebook for clear visualization.
 
-📂 Dataset Information
+## 🔧 Installation & Usage
+### **Requirements**
+- Python 3.x
+- Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-Source: Master Contract Sales Data
+### **Run the Notebook**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Sales-Forecasting-Analysis.git
+   cd Sales-Forecasting-Analysis
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter Notebook and run the analysis:
+   ```bash
+   jupyter notebook sales_forecasting.ipynb
+   ```
 
-Updated: March 8, 2025
+## 🏆 Contributing
+Feel free to **fork** this repository, submit **pull requests**, or suggest improvements!
 
-Description: Reports sales data by contract and customer, including small business & veteran-owned business status.
+## 📜 License
+This project follows the **[dataset's terms of use](https://catalog.data.gov/dataset/master-contract-sales-data-by-customer-contract-vendor)**. The dataset is **publicly available** but may have specific usage restrictions.
 
-Access: Public dataset
-
-🛠️ Methodology
-
-1️⃣ Sales Forecasting
-
-Models Used:
-
-Linear Regression: Assumes a constant rate of sales growth.
-
-Polynomial Regression (Degree 2): Captures accelerating growth trends.
-
-Findings:
-
-Linear Regression predicts $2.7B in sales for 2025.
-
-Polynomial Regression predicts $3.32B, suggesting an increasing growth rate.
-
-📊 Results & Visualization
-
-📉 Trends: Polynomial Regression shows faster growth than Linear Regression.
-
-📌 Key Insight: Sales growth is non-linear, meaning higher-than-expected revenue in future years.
-
-📈 Graphs included in the notebook for clear visualization.
-
-🔧 Installation & Usage
-
-Requirements
-
-Python 3.x
-
-Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
-Run the Notebook
-
-Clone the repository:
-
-git clone https://github.com/ayaanakhter/Sales-Forecasting-Analysis.git
-cd Sales-Forecasting-Analysis
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Open the Jupyter Notebook and run the analysis:
-
-jupyter notebook Sales_forecasting.ipynb
-
-🏆 Contributing
-
-Feel free to fork this repository, submit pull requests, or suggest improvements!
-
-📜 License
-
-This project follows the dataset's terms of use. The dataset is publicly available but may have specific usage restrictions.
-
-🚀 If you like this project, don't forget to ⭐ the repository!
+---
+🚀 **If you like this project, don't forget to ⭐ the repository!**
 
