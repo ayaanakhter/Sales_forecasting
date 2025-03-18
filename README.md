@@ -1,4 +1,4 @@
-# 📊 Sales Forecasting & Customer Segmentation
+# 📊 Sales Forecasting 
 
 ## 🚀 Project Overview
 This project analyzes **Statewide Contract (Master Contract) Sales Data** to:
