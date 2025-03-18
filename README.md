@@ -42,7 +42,7 @@ This project analyzes **Statewide Contract (Master Contract) Sales Data** to:
    ```
 3. Open the Jupyter Notebook and run the analysis:
    ```bash
-   jupyter notebook sales_forecasting.ipynb
+   jupyter notebook Washington_state_sales_analysis_project.ipynb
    ```
 
 ## 🏆 Contributing
