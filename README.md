@@ -33,8 +33,8 @@ This project analyzes **Statewide Contract (Master Contract) Sales Data** to:
 ### **Run the Notebook**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ayaanakhter/Sales-Forecasting-Analysis.git
-   cd Sales-Forecasting-Analysis
+   git clone https://github.com/ayaanakhter/Sales_forecasting.git
+   cd Sales_forecasting
    ```
 2. Install dependencies:
    ```bash
